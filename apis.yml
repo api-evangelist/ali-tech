@@ -1,7 +1,26 @@
 aid: ali-tech
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ali-tech.png
 name: Ali Tech
-description: Ali Tech is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Ali Tech (operating as Xaim) is an AI infrastructure platform that gives
+  startups and AI-driven businesses affordable, predictable compute for running AI
+  workloads. Instead of token-based pricing, Xaim sells reserved processing capacity
+  so teams can reduce processing costs without modifying their existing AI models.
+  The platform is delivered as APIs through an Azure API Management developer portal,
+  and advertises three products - a Compute API for running existing AI models cost
+  effectively, an Insights API for real-time performance-optimization signals, and
+  an Automation API for automating and scaling AI processes. Surfaced as a portfolio
+  company of 500 Global and added to the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/ali-tech/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,6 +33,12 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Artificial Intelligence
+- AI Infrastructure
+- Compute
+- Machine Learning
+- Cost Optimization
+- APIs
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +46,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/ali-tech-domain-security.yml
 - type: Website
   url: https://xaim.io
+- type: DeveloperPortal
+  url: https://apim-core-ai-eastus2-dev.developer.azure-api.net/
+- type: Documentation
+  url: https://apim-core-ai-eastus2-dev.developer.azure-api.net/apis
+- type: APIReference
+  url: https://apim-core-ai-eastus2-dev.developer.azure-api.net/apis
+- type: SignUp
+  url: https://apim-core-ai-eastus2-dev.developer.azure-api.net/signup
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
