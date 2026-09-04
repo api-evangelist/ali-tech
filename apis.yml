@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://xaim.io', status: 302, note: 'declared website redirects to https://apim-core-ai-eastus2-dev.developer.azure-api.net/ — a different registrable domain (xaim.io -> azure-api.net), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ali-tech.png
 name: Ali Tech
 description: Ali Tech (operating as Xaim) is an AI infrastructure platform that gives
